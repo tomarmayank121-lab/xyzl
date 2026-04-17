@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  background: black;
+  color: white;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 10;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background: cyan;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
